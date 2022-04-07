@@ -3,8 +3,8 @@ package resourceinforesourceonly
 import (
 	"reflect"
 
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/schema"
-	"github.com/bflad/tfproviderlint/passes/helper/schema/resourceinfo"
+	"github.com/manicminer/tfproviderlint/helper/terraformtype/helper/schema"
+	"github.com/manicminer/tfproviderlint/passes/helper/schema/resourceinfo"
 	"golang.org/x/tools/go/analysis"
 )
 

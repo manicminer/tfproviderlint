@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/testaccfuncdecl"
+	"github.com/manicminer/tfproviderlint/passes/commentignore"
+	"github.com/manicminer/tfproviderlint/passes/testaccfuncdecl"
 )
 
 const Doc = `check for acceptance test function names including the word import

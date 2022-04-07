@@ -8,8 +8,8 @@ import (
 	"go/token"
 	"go/types"
 
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/schema"
-	"github.com/bflad/tfproviderlint/passes/commentignore"
+	"github.com/manicminer/tfproviderlint/helper/terraformtype/helper/schema"
+	"github.com/manicminer/tfproviderlint/passes/commentignore"
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"
 	"golang.org/x/tools/go/ast/inspector"

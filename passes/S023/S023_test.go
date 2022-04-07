@@ -3,7 +3,7 @@ package S023_test
 import (
 	"testing"
 
-	"github.com/bflad/tfproviderlint/passes/S023"
+	"github.com/manicminer/tfproviderlint/passes/S023"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

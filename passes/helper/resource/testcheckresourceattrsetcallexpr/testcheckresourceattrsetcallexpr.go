@@ -1,8 +1,8 @@
 package testcheckresourceattrsetcallexpr
 
 import (
-	"github.com/bflad/tfproviderlint/helper/analysisutils"
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/resource"
+	"github.com/manicminer/tfproviderlint/helper/analysisutils"
+	"github.com/manicminer/tfproviderlint/helper/terraformtype/helper/resource"
 )
 
 var Analyzer = analysisutils.FunctionCallExprAnalyzer(

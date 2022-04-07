@@ -3,8 +3,8 @@ package AT008
 import (
 	"go/ast"
 
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/testaccfuncdecl"
+	"github.com/manicminer/tfproviderlint/passes/commentignore"
+	"github.com/manicminer/tfproviderlint/passes/testaccfuncdecl"
 	"golang.org/x/tools/go/analysis"
 )
 

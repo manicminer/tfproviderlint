@@ -3,9 +3,9 @@ package AT009
 import (
 	"go/ast"
 
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/acctest"
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/helper/acctest/randstringfromcharsetcallexpr"
+	"github.com/manicminer/tfproviderlint/helper/terraformtype/helper/acctest"
+	"github.com/manicminer/tfproviderlint/passes/commentignore"
+	"github.com/manicminer/tfproviderlint/passes/helper/acctest/randstringfromcharsetcallexpr"
 	"golang.org/x/tools/go/analysis"
 )
 

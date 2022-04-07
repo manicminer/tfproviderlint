@@ -3,7 +3,7 @@ package V007_test
 import (
 	"testing"
 
-	"github.com/bflad/tfproviderlint/passes/V007"
+	"github.com/manicminer/tfproviderlint/passes/V007"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

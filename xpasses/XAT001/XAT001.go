@@ -3,9 +3,9 @@ package XAT001
 import (
 	"go/ast"
 
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/resource"
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/helper/resource/testcaseinfo"
+	"github.com/manicminer/tfproviderlint/helper/terraformtype/helper/resource"
+	"github.com/manicminer/tfproviderlint/passes/commentignore"
+	"github.com/manicminer/tfproviderlint/passes/helper/resource/testcaseinfo"
 	"golang.org/x/tools/go/analysis"
 )
 

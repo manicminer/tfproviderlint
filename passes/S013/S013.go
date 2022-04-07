@@ -8,9 +8,9 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/schema"
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/helper/schema/schemamapcompositelit"
+	"github.com/manicminer/tfproviderlint/helper/terraformtype/helper/schema"
+	"github.com/manicminer/tfproviderlint/passes/commentignore"
+	"github.com/manicminer/tfproviderlint/passes/helper/schema/schemamapcompositelit"
 )
 
 const Doc = `check for Schema that are missing required fields

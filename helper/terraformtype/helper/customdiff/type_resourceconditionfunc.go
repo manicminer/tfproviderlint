@@ -5,8 +5,8 @@ import (
 	"go/token"
 	"go/types"
 
-	"github.com/bflad/tfproviderlint/helper/astutils"
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/schema"
+	"github.com/manicminer/tfproviderlint/helper/astutils"
+	"github.com/manicminer/tfproviderlint/helper/terraformtype/helper/schema"
 )
 
 const (

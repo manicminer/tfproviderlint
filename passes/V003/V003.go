@@ -1,10 +1,10 @@
 package V003
 
 import (
-	"github.com/bflad/tfproviderlint/helper/analysisutils"
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/validation"
-	"github.com/bflad/tfproviderlint/passes/helper/validation/iprangecallexpr"
-	"github.com/bflad/tfproviderlint/passes/helper/validation/iprangeselectorexpr"
+	"github.com/manicminer/tfproviderlint/helper/analysisutils"
+	"github.com/manicminer/tfproviderlint/helper/terraformtype/helper/validation"
+	"github.com/manicminer/tfproviderlint/passes/helper/validation/iprangecallexpr"
+	"github.com/manicminer/tfproviderlint/passes/helper/validation/iprangeselectorexpr"
 )
 
 var Analyzer = analysisutils.DeprecatedEmptyCallExprWithReplacementSelectorExprAnalyzer(

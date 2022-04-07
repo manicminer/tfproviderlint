@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/bflad/tfproviderlint/version"
+	"github.com/manicminer/tfproviderlint/version"
 )
 
 // AddVersionFlag adds -V and -version flags to commands

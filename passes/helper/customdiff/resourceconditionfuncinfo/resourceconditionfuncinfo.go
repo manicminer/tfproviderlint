@@ -4,7 +4,7 @@ import (
 	"go/ast"
 	"reflect"
 
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/customdiff"
+	"github.com/manicminer/tfproviderlint/helper/terraformtype/helper/customdiff"
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"
 	"golang.org/x/tools/go/ast/inspector"

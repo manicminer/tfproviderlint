@@ -7,8 +7,8 @@
 package main
 
 import (
-	"github.com/bflad/tfproviderlint/helper/cmdflags"
-	"github.com/bflad/tfproviderlint/passes"
+	"github.com/manicminer/tfproviderlint/helper/cmdflags"
+	"github.com/manicminer/tfproviderlint/passes"
 	"golang.org/x/tools/go/analysis/multichecker"
 )
 

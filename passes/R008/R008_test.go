@@ -3,7 +3,7 @@ package R008_test
 import (
 	"testing"
 
-	"github.com/bflad/tfproviderlint/passes/R008"
+	"github.com/manicminer/tfproviderlint/passes/R008"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

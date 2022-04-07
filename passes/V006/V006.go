@@ -1,9 +1,9 @@
 package V006
 
 import (
-	"github.com/bflad/tfproviderlint/helper/analysisutils"
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/validation"
-	"github.com/bflad/tfproviderlint/passes/helper/validation/validatelistuniquestringsselectorexpr"
+	"github.com/manicminer/tfproviderlint/helper/analysisutils"
+	"github.com/manicminer/tfproviderlint/helper/terraformtype/helper/validation"
+	"github.com/manicminer/tfproviderlint/passes/helper/validation/validatelistuniquestringsselectorexpr"
 )
 
 var Analyzer = analysisutils.DeprecatedWithReplacementSelectorExprAnalyzer(

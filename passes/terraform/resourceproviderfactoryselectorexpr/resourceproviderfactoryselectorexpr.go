@@ -1,8 +1,8 @@
 package resourceproviderfactoryselectorexpr
 
 import (
-	"github.com/bflad/tfproviderlint/helper/analysisutils"
-	"github.com/bflad/tfproviderlint/helper/terraformtype/terraform"
+	"github.com/manicminer/tfproviderlint/helper/analysisutils"
+	"github.com/manicminer/tfproviderlint/helper/terraformtype/terraform"
 )
 
 var Analyzer = analysisutils.SelectorExprAnalyzer(

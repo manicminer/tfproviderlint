@@ -1,9 +1,9 @@
 package V002
 
 import (
-	"github.com/bflad/tfproviderlint/helper/analysisutils"
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/validation"
-	"github.com/bflad/tfproviderlint/passes/helper/validation/cidrnetworkselectorexpr"
+	"github.com/manicminer/tfproviderlint/helper/analysisutils"
+	"github.com/manicminer/tfproviderlint/helper/terraformtype/helper/validation"
+	"github.com/manicminer/tfproviderlint/passes/helper/validation/cidrnetworkselectorexpr"
 )
 
 var Analyzer = analysisutils.DeprecatedWithReplacementSelectorExprAnalyzer(

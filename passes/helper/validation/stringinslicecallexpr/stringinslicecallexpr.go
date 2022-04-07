@@ -1,8 +1,8 @@
 package stringinslicecallexpr
 
 import (
-	"github.com/bflad/tfproviderlint/helper/analysisutils"
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/validation"
+	"github.com/manicminer/tfproviderlint/helper/analysisutils"
+	"github.com/manicminer/tfproviderlint/helper/terraformtype/helper/validation"
 )
 
 var Analyzer = analysisutils.FunctionCallExprAnalyzer(

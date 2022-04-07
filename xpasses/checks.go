@@ -1,17 +1,17 @@
 package xpasses
 
 import (
-	"github.com/bflad/tfproviderlint/xpasses/XAT001"
-	"github.com/bflad/tfproviderlint/xpasses/XR001"
-	"github.com/bflad/tfproviderlint/xpasses/XR002"
-	"github.com/bflad/tfproviderlint/xpasses/XR003"
-	"github.com/bflad/tfproviderlint/xpasses/XR004"
-	"github.com/bflad/tfproviderlint/xpasses/XR005"
-	"github.com/bflad/tfproviderlint/xpasses/XR006"
-	"github.com/bflad/tfproviderlint/xpasses/XR007"
-	"github.com/bflad/tfproviderlint/xpasses/XR008"
-	"github.com/bflad/tfproviderlint/xpasses/XS001"
-	"github.com/bflad/tfproviderlint/xpasses/XS002"
+	"github.com/manicminer/tfproviderlint/xpasses/XAT001"
+	"github.com/manicminer/tfproviderlint/xpasses/XR001"
+	"github.com/manicminer/tfproviderlint/xpasses/XR002"
+	"github.com/manicminer/tfproviderlint/xpasses/XR003"
+	"github.com/manicminer/tfproviderlint/xpasses/XR004"
+	"github.com/manicminer/tfproviderlint/xpasses/XR005"
+	"github.com/manicminer/tfproviderlint/xpasses/XR006"
+	"github.com/manicminer/tfproviderlint/xpasses/XR007"
+	"github.com/manicminer/tfproviderlint/xpasses/XR008"
+	"github.com/manicminer/tfproviderlint/xpasses/XS001"
+	"github.com/manicminer/tfproviderlint/xpasses/XS002"
 	"golang.org/x/tools/go/analysis"
 )
 

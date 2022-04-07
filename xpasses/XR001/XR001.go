@@ -5,8 +5,8 @@ package XR001
 import (
 	"go/ast"
 
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/helper/schema/resourcedatagetokexistscallexpr"
+	"github.com/manicminer/tfproviderlint/passes/commentignore"
+	"github.com/manicminer/tfproviderlint/passes/helper/schema/resourcedatagetokexistscallexpr"
 	"golang.org/x/tools/go/analysis"
 )
 

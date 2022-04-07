@@ -5,9 +5,9 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/bflad/tfproviderlint/helper/astutils"
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/helper/schema/resourcedatasetidcallexpr"
+	"github.com/manicminer/tfproviderlint/helper/astutils"
+	"github.com/manicminer/tfproviderlint/passes/commentignore"
+	"github.com/manicminer/tfproviderlint/passes/helper/schema/resourcedatasetidcallexpr"
 )
 
 const Doc = `check for (*schema.ResourceData).SetId() usage with unstable time.Now() value

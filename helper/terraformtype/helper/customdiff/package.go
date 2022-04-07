@@ -5,8 +5,8 @@ import (
 	"go/ast"
 	"go/types"
 
-	"github.com/bflad/tfproviderlint/helper/astutils"
-	"github.com/bflad/tfproviderlint/helper/terraformtype"
+	"github.com/manicminer/tfproviderlint/helper/astutils"
+	"github.com/manicminer/tfproviderlint/helper/terraformtype"
 )
 
 const (

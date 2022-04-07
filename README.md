@@ -2,30 +2,30 @@
 
 Static analysis libraries and tooling for [Terraform Provider](https://www.terraform.io/docs/providers/index.html) code.
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/bflad/tfproviderlint)](https://pkg.go.dev/github.com/bflad/tfproviderlint)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/manicminer/tfproviderlint)](https://pkg.go.dev/github.com/manicminer/tfproviderlint)
 
 ## Install
 
 ### Local Install
 
-Release binaries are available in the [Releases](https://github.com/bflad/tfproviderlint/releases) section.
+Release binaries are available in the [Releases](https://github.com/manicminer/tfproviderlint/releases) section.
 
 To instead use Go to install into your `$GOBIN` directory (e.g. `$GOPATH/bin`):
 
 ```console
-$ go get github.com/bflad/tfproviderlint/cmd/tfproviderlint
+$ go get github.com/manicminer/tfproviderlint/cmd/tfproviderlint
 ```
 
 If you wish to install the command which includes all linting checks, including [Extra Lint Checks](#extra-lint-checks):
 
 ```console
-$ go get github.com/bflad/tfproviderlint/cmd/tfproviderlintx
+$ go get github.com/manicminer/tfproviderlint/cmd/tfproviderlintx
 ```
 
 ### Docker Install
 
 ```console
-$ docker pull bflad/tfproviderlint
+$ docker pull manicminer/tfproviderlint
 ```
 
 ### Homebrew Install
@@ -79,12 +79,12 @@ $ go vet -vettool $(which tfproviderlint) ./...
 Change into the directory of the Terraform Provider code and run:
 
 ```console
-$ docker run -v $(pwd):/src bflad/tfproviderlint ./...
+$ docker run -v $(pwd):/src manicminer/tfproviderlint ./...
 ```
 
 ### GitHub Action Usage
 
-A [GitHub Action](https://github.com/features/actions) is available: [tfproviderlint-github-action](https://github.com/bflad/tfproviderlint-github-action)
+A [GitHub Action](https://github.com/features/actions) is available: [tfproviderlint-github-action](https://github.com/manicminer/tfproviderlint-github-action)
 
 ## Standard Lint Checks
 
